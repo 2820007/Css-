@@ -1,3 +1,20 @@
+
+/*element selector  */
 h1{
     color: aqua;
 }
+/* universal selector */
+/* *{
+    background-color: aqua;
+} */
+
+/* class selector */
+.text{
+    color: blueviolet;
+}
+
+/* Id selector */
+#para{
+    color: red;
+}
+
