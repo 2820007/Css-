@@ -65,7 +65,7 @@
        -eg.red.
     2.rgb(red green blue)  range(0-255)
     3.rgba(red green blue with oppacity)  a=0-1
-    4.hashcode
+    4.hashcode(0-f)
        -Eg. #345533
 
     5.hsl(hue saturation lightness)   
