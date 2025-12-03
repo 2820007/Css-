@@ -71,3 +71,64 @@
     5.hsl(hue saturation lightness)   
        -eg.hsl(0,30%,40%)
             -hue ma degree and baki 2 wata ma % dine..
+
+
+
+
+  
+
+<!-- hexcode -->
+facf91
+red
+fa
+15*16 +10
+240+10
+
+green
+cf
+192+15
+
+blue
+91
+
+
+
+<!-- typography -->
+
+-Text 
+  1.Text align
+     -center
+     -start
+     -end
+     -justify(arranging text in  equal line)
+
+
+   2.  text decoration
+        -underline
+        -line-through
+        -overline
+   3.text-transformation    
+     -Capatilized
+     -lower-case
+     -upper-case 
+
+
+   4.text-shadow
+    -20px 20px 2px red
+     x-axis y-axis shadow-darkness  color   
+
+
+
+<!-- Font -->
+  -font-size
+  -font-weight(boldness)
+  -font-style(eg.italic)
+  -font-family(font types kun rakhne ko lagi)
+      -serif ma angle niskeko hunx
+      -suns-serif ma  without angle
+
+    --line height
+    -word spacing
+    -letter-spacing  
+
+
