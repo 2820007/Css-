@@ -179,3 +179,8 @@ blue
     -slow star ,fast in between and slow at end
     -start and end same  hunch.
 
+
+  <!-- Animation -->
+    -animation direction
+     normal-
+

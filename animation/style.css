@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    border: 20px solid rgb(167, 103, 103);
+    height: 700px;
+    
+   
+}
+.child{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    padding: 1px;
+
+
+     animation: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* animation-duration: normal; */
+    /* animation-direction: reverse; */
+    animation-direction: alternate;
+    /* animation-direction: alternate-reverse; */
+
+}
+
+@keyframes move{
+    0%{
+       transform: translateX(0px);
+
+    }
+    50%{
+        background-color: #862828;
+        border-radius: 50%;
+    }
+    100%{
+       transform: translateX(900px);
+    }
+}
