@@ -162,3 +162,20 @@ blue
     -for vertical 
     -align content matlab column ko lagi
        -for row ko lagi 
+
+
+
+
+<!-- transition -->
+    ease
+    -slow star ,fast in between and slow at end
+    - start and end not same end ali kam hunch.
+    ease-in
+    -slow start and fast end
+    ease-out
+    -fast start and slow end
+
+    ease-in and ease-out
+    -slow star ,fast in between and slow at end
+    -start and end same  hunch.
+
