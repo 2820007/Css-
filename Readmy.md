@@ -132,3 +132,14 @@ blue
     -letter-spacing  
 
 
+
+
+<!-- position -->
+
+    ---position---
+        -static-fixed
+        -relative (left,right,top,bottom) aafnai position bat  movement garx...
+        -absolute( parent ko position bat movement garx....)
+        -fixed(only viewport ko linxa )
+
+
