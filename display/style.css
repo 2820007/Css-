@@ -1,0 +1,25 @@
+.box{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+}
+.b1{
+    background-color: brown;
+    display: inline-block;
+    /* display: none; */
+    /* visibility: hidden; */
+    /* visibility: visible; */
+}
+.b2{
+    background-color: aquamarine;
+    display: inline-block;
+}
+
+
+.spn{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background: #000;
+    display: inline-block;
+}

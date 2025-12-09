@@ -1,0 +1,37 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.anchor{
+    display: flex;
+    gap: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-main{
+    background-image: url(man.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.ravi{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.nav-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

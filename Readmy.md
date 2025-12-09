@@ -142,4 +142,23 @@ blue
         -absolute( parent ko position bat movement garx....)
         -fixed(only viewport ko linxa )
 
+<!-- display -->
+    -inline ma property change garna sakidain...
+    -inline-block ()
+      -In this we can set the height and width and arrange the box in  inline behaviour....
 
+
+      -none-hatai dinx viewport bat
+      -visibility-hidden - place xod dinx that place ma
+   
+   <!-- flex -->
+       -justify-content-evenly 
+          -equal space between
+        -justify-content-around- 
+            -left right double in centere box 
+        -justify-content-between 
+            -only center 
+   -Align item-
+    -for vertical 
+    -align content matlab column ko lagi
+       -for row ko lagi 

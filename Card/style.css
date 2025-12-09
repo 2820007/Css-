@@ -1,0 +1,46 @@
+.ramen{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    justify-content: space-around;
+    color: white;
+
+}
+body{
+    background-color: rgba(165, 42, 42, 0.457);
+}
+
+
+img{
+    border-radius: 50%;
+}
+
+
+.card{
+    
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    grid-template-rows: repeat(2,auto);
+    justify-content: center;
+    border-radius: 40px;
+    gap: 40px;
+
+    
+}
+.card1{
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    padding: 40px;
+    
+}
+p{
+    text-align: center;
+}
+button{
+    background-color: brown;
+    border-radius: 30px;
+    padding: 4px;
+    width: 120px;
+    margin-left: 4px;
+   
+}

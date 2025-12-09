@@ -1,0 +1,44 @@
+.parent{
+    border: 2px solid black;
+    height: 900px;
+    display: flex;
+    /* flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse; */
+    /* justify-content: center;
+    justify-content: start;
+    justify-content: end; */
+    /* justify-content: space-evenly;
+    justify-content: space-around;
+    justify-content: space-between; */
+    /* row-gap: 20px;
+    column-gap: 30px; */
+    /* gap: 4px; */
+    /* justify-content: center;
+    align-items: end; */
+
+    /* justify-content: start;
+    align-items: start; */
+    
+    /* justify-content: center;
+    align-items: center; */
+     flex-wrap: wrap;
+     /* align-content: start;
+     align-content: end; */
+     align-content: start;
+     justify-content: center;
+     gap: 10px;
+     padding: 40px;
+
+
+
+
+    
+
+}
+
+.child{
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+}

@@ -1,0 +1,37 @@
+.parent{
+    border: 2px solid black;
+    height: 800px;
+    padding: 2px;
+    
+}
+
+.transform{
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    margin-top: 100px;
+   
+
+    /* 2d and 3d  */
+    /* transform: rotate();
+    transform: translate();
+    transform: skew();
+    transform: scale();
+    transform: perspective(); */
+}
+.transform:hover{
+    /* transform: translateX(300px);
+    transform: translateX(-40px);
+    transform: translateY(500px);
+    transform: translateY(-50px); */
+
+    /* transform: perspective(500px) translateZ(-200px);
+    transform: perspective(500px) translateZ(200px); */
+    /* transform: skewX(45deg); */
+    /* transform: skewY(45deg); */
+    /* transform: rotateX(90deg);
+    transform: rotateY(120deg);
+    transform: rotateZ(30deg); */
+    transform: scaleX(200px);
+}
