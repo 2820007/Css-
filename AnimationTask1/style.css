@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    height: 700px;
+    background-image: url(https://media.istockphoto.com/id/603164912/photo/suburb-asphalt-road-and-sun-flowers.jpg?s=612x612&w=0&k=20&c=qLoQ5QONJduHrQ0kJF3fvoofmGAFcrq6cL84HbzdLQM=);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.car-container {
+    position: absolute;
+    top: 350px;
+    animation: carMove 4s linear infinite;
+}
+
+
+.car {
+    width: 360px;
+    height: 180px;
+    background-image: url(car.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.wheel {
+    width: 85px;
+    height: 85px;
+    background-image: url(wheel.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    animation: wheelSpin 0.5s linear infinite;
+}
+
+.wheel12 {
+    bottom: -15px;
+    left: 2px;
+}
+.wheel13 {
+    bottom: -15px;
+    left: 280px;
+}
+
+
+@keyframes carMove {
+    0% { transform: translateX(-400px); }
+    100% { transform: translateX(1500px); }
+}
+
+
+@keyframes wheelSpin {
+    0% { transform: rotate(0deg); }
+    100%   { transform: rotate(360deg); }
+}

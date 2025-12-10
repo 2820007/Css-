@@ -184,3 +184,8 @@ blue
     -animation direction
      normal-
 
+
+
+     <!-- box model -->
+     - it gives the actual height and widht ann padding of box.
+

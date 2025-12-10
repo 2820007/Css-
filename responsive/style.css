@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.responsive{
+    border: 2px solid black;
+    height: 100px;
+}
+
+
+/* 
+   @media (width:300px){
+   .responsive{
+      background-color:red;
+   }
+ */
+
+ /* 
+   @media (min-width:300px){
+   .responsive{
+      background-color:red;
+   }
+ */
+
+
+@media (min-width:0px) and (max-width:300px) {
+    .responsive{
+        background-color: green;
+    }
+    
+}
+@media (min-width:300px) and (max-width:700px) {
+    .responsive{
+        background-color: rgb(128, 38, 0);
+    }
+    
+}
+
+@media (min-width:700px) and (max-width:1300px) {
+    .responsive{
+        background-color: rgb(77, 0, 128);
+    }
+    
+}
+
+@media (min-width:1300px)  {
+    .responsive{
+        background-color: rgb(147, 162, 176);
+    }
+    
+}
